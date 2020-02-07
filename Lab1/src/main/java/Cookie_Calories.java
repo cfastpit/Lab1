@@ -14,7 +14,7 @@ public class Cookie_Calories {
 
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("Please enter the amount of cookies eatten");
+        System.out.println("Please enter the amount of cookies consumed");
         double number_Of_Cookies = keyboard.nextDouble();
         final int BAG = 40;
         final double SERVINGS_IN_BAG = 10;
@@ -27,5 +27,7 @@ public class Cookie_Calories {
         System.out.println("servings in a bag \t\t" + SERVINGS_IN_BAG + " Cookies");
         System.out.println("1 cookie = \t\t\t" + COOKIE_CALORIES + " Calories");
         System.out.println("You consume\t\t\t" + calories_consumed + " Calories");
+        System.out.println("The number of servings you ate\t" + servings);
+        System.out.println("The number of bags you ate\t" + ate_In_Bag);
     }
 }
